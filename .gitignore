@@ -1,2 +1,5 @@
-docker-compose.override.yml
-docs/build
+/docker-compose.override.yml
+/docs/build
+
+# we don't have any deps; un-ignore if that changes
+/package-lock.json
